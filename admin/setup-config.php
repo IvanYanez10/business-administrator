@@ -1,3 +1,19 @@
+<?php
+/**
+ * Retrieves and creates the wp-config.php file.
+ *
+ * The permissions for the base directory must allow for writing files in order
+ * for the wp-config.php to be created using this page.
+ *
+ * @package WordPress
+ * @subpackage Administration
+ */
+
+/**
+ * We are installing.
+ */
+define( 'WP_INSTALLING', true );
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

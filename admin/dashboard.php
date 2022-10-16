@@ -14,20 +14,33 @@
   <title>empresa</title>
 </head>
 <body>
-  <div class="box">
-    <h1>empresa</h1>
-    <form role="form" method="post" action="customer.php">
-      <div class="inputBox">
-        <input type="text" name="userID" autocomplete="off" required>
-        <label>usuario</label>
+  
+  <div>
+    <div>
+      <img src="" alt="">
+      <a href="">Inicio</a>
+      <a href="">Servicios</a>
+      <a href="">Clientes</a>
+      <a href="">Personal</a>
+      <a href="">Finanzas</a>
+      <a href="">Pedidos</a>
+    </div>
+    <div>
+      <img src="" alt="">
+      <div>
+        <p>Usuario</p>
+        <p>posicion</p>
       </div>
-      <div class="inputBox">
-        <input type="text" name="userID" autocomplete="off" required>
-        <label>contraseña</label>
-      </div>
-      <input type="submit" name="submit" value="Ingresar">      
-    </form>
-    <p>Tienes # oportunidades</p>
+      <a href="">logout</a>
+    </div>
+  
+    <div>
+      
+    </div>
+  
   </div>
+
+  
+
 </body>
 </html>
