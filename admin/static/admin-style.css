@@ -1,0 +1,79 @@
+body{
+  background-color: #1D1D1E;
+  color: white;
+  overflow: hidden;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+h3{
+  font-size: 20px;
+}
+
+.content{
+  display: flex;
+  min-height: 600px;
+  overflow: hidden;
+}
+.bss-content{
+  display: flex;
+  min-height: 600px;
+  width: 100%;
+  height: 100vh;
+  margin: 10px 20px;
+}
+.user-data{
+  height: 70px;
+  padding: 0 5px;
+  margin: 5px;
+}
+.quick{
+  box-shadow: 2px 0px 5px #222222;
+}
+.quick-view{
+  padding: 0 20px;
+}
+.business{
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px #1D1D1E solid;
+  background-color: #1D1D1a;
+}
+.business p{
+  color: rgba(189, 189, 189);
+}
+.title{
+  text-align: center;
+}
+.title-disabled{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  height: 100%;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d6d6d6;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(63, 63, 63);
+}

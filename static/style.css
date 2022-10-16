@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;  
+  background-color: #1D1D1E;
+  background-image: url('../images/fluid-planet.png');
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center left;
+  background-size: auto 100%;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  width: 450px;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.box h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.box .inputBox {
+  position: relative;
+}
+.box .inputBox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: #2C2C2E;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;  
+  text-align: center;
+  height: 50px;
+}
+.box input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #037AFA;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+::placeholder { 
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+::-ms-input-placeholder {
+  color: red;
+}
+
+a {
+  color: #fff;
+  margin-left: 2%;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+a:hover{
+  color:#037AFA;
+}
+
+p{
+  color: #434245;
+}
+.thoubles{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  margin: 20px;
+}
+.rights{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
